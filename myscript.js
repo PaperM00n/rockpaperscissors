@@ -62,33 +62,27 @@ var playerScore = 0;
     }
 
     //game loops 5 times and keeps score + announces winner at the end best out of 5
-    function game(){
-        for (i = 0; i < 5; i++){
-            playRound(playerSelection, computerSelection);
-            console.log(computerSelection);
-        // if(trackerBoolean = 0){
-        //     compScore += 1;
-        // }
-        // else if (trackerBoolean = 1){
-        //     playerScore += 1;
-        // }
-
-        console.log(playerScore);
-        console.log(compScore);
-
-        }
-
-        if(compScore > playerScore){
-            alert("Computer Won")
-        }
-        else if (compScore < playerScore){
-            alert("You Won!")
-        }
-        else{
-            alert("It's a tie!")
-        }
-    }
+    // function game(){
+    //     for (i = 0; i < 5; i++){
+    //         playRound(playerSelection, computerSelection);
+    //         console.log(computerSelection);
 
 
-        //console.log(playRound(playerSelection, computerSelection));
+    //     console.log(playerScore);
+    //     console.log(compScore);
+
+    //     }
+
+    //     if(compScore > playerScore){
+    //         alert("Computer Won")
+    //     }
+    //     else if (compScore < playerScore){
+    //         alert("You Won!")
+    //     }
+    //     else{
+    //         alert("It's a tie!")
+    //     }
+    // }
+
+
         console.log(game());
